@@ -1,0 +1,16 @@
+name: PROJECT_NAME
+title: Human-readable title
+status: active            # active | paused | done
+profile: none             # bsi | personal | none | <employer>
+# ---- provenance (always filled; never blank) ----
+created_by: TOOL
+created_at: YYYY-MM-DD
+updated_by: TOOL
+updated_at: YYYY-MM-DD
+# ---- sync (the owner decides) ----
+origin_tool: TOOL         # the agent where the project started
+sync_to: []               # e.g. [claude, chatgpt]
+exported_by: null
+exported_at: null
+# history is appended by build/project.py as {date, tool, action}; keep it the LAST key
+history: []
