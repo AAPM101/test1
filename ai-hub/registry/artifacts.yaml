@@ -1,3 +1,0 @@
-# Catalog of artifacts. Source files live in the project's files/ folder (or here under registry/ if standalone).
-# Fields: id, name, type, tool, url, source_path, project, profile, status, created_by, created_at, updated_by, updated_at
-artifacts: []
